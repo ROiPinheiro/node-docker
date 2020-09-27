@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "./app.js";
+import { app } from "./app";
 
 describe("Route tests", () => {
   test("should return 200 on request root", (done) => {
